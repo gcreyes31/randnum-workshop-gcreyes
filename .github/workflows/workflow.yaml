@@ -1,6 +1,6 @@
 name: git workshop
 on:
-  release:
+  release
 
 jobs:
   full workshop flow:
