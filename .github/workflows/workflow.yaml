@@ -1,0 +1,13 @@
+name: git workshop
+on:
+  release:
+
+jobs:
+  full workshop flow:
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout tag
+      uses: actions/checkout@v3
+      with:
+        ref: master
+
