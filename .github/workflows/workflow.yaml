@@ -35,13 +35,7 @@ jobs:
                 "type": "section",
                 "text": {
                   "type": "mrkdwn",
-                  "text": "Name: ${{secrets.USER_NAME}}\n
-                          Matriculation Number: ${{secrets.MAT_NUMBER}}\n
-                          Email: ${{secrets.EMAIL}}\n
-                          Repository: ${{ github.repositoryUrl }}\n
-                          Image Name: ${{ github.repository }}:${{ github.ref_name }}\n
-                          Image URL: ${{secrets.IMAGE_URL}}\n
-                  "
+                  "text": "Name: ${{secrets.USER_NAME}}\nMatriculation Number: ${{secrets.MAT_NUMBER}}\nEmail: ${{secrets.EMAIL}}\nRepository: ${{ github.repositoryUrl }}\nImage Name: ${{ github.repository }}:${{ github.ref_name }}\nImage URL: ${{secrets.IMAGE_URL}}"
                 }
               }
             ]
